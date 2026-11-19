@@ -43,13 +43,18 @@
 .all .effect .bar ul li button {
     width: 80px;
     height: 40px;
-    background-color: #dc030f;
+    background-color: #cc050f;
     padding: 0.25rem 0.5rem;
     color: white;
     border: #dc030f solid 1px;
     border-radius: 5px;
     font-weight: 800px;
     font-size: 15;
+}
+
+.all .effect .bar ul li button.dev {
+    width: 105px;
+    margin-right: 10px;
 }
 
 .all .effect .bar ul li button a {
@@ -99,9 +104,9 @@
     font-size: 15px;
     width: 21%;
     border: none;
-    background-color: #dc030f;
+    background-color: #9b030b;
     padding: 15px;
-    border: 1px solid #dc030f;
+    border: 1px solid #94030a;
     color: white;
     font-weight: 800px;
 }
@@ -204,7 +209,7 @@
 .main .lol .sign-in form button {
     width: 100%;
     padding: 10px;
-    background-color: #e50914;
+    background-color: #c50710;
     color: white;
     font-weight: bold;
     border-radius: 5px;
@@ -215,7 +220,7 @@
 }
 
 .main .lol .sign-in form button:hover {
-    background-color: #a20008;
+    background-color: #a3060d;
 }
 
 .main .lol .sign-in form P {
@@ -387,7 +392,7 @@ body {
     font-size: 15px;
     width: 15%;
     border: none;
-    background-color: #dc030f;
+    background-color: #94030a;
     border: 1px solid #dc030f;
     color: white;
     font-weight: 800px;
@@ -409,6 +414,12 @@ body {
 
     .all .effect .bar ul li button {
         height: 30px;
+    }
+
+    .all .effect .bar ul li button.dev {
+        width: 90px;
+        margin-right: 5px;
+        font-size: 13px;
     }
 
     .all .effect .bar .my-name h2 {
